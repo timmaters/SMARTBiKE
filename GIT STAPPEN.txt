@@ -1,0 +1,19 @@
+repository clonen
+> goto xampp/htdocs
+> create repository folder
+> open gitbash/cmd in folder
+> git clone https://github.com/timmaters/SMARTBiKE.git
+done
+
+
+pull remote changes to local:
+open gitbash/cmd
+> git pull
+DONE
+
+commit local changes to remote:
+open gitbash/cmd
+> git add --all
+> git commit -m "commit details"
+> git push
+DONE
