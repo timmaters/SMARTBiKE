@@ -9,8 +9,11 @@
 <body>
 
   <div class="container-left">
-    <img src="img/mobile-phone.png/">
+    <div id="mobile">
+      <div id="mobile-content">Featured</div>
+    </div>
   </div>
+
   <div class="container-top-right"></div>
   <div class="container-bottom-right"></div>
 </body>

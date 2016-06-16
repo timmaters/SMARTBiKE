@@ -4,13 +4,34 @@
   text-decoration: none;
 }
 
-
+/* container 1 */
 
 .container-left {
   background-color: #3a3a3a;
   width: 50%;
   height: 100vh;
   float: left;
+}
+
+#mobile {
+  position: relative;
+  width: 96%;
+  margin: 2%;
+  height: 96%;
+  background: url(../img/mobile-phone.png) no-repeat top center;
+  background-size: 100% auto;
+}
+
+#mobile-content {
+   position: absolute;
+   left: 50%;
+   top: 8vw;
+   margin-left: -25%;
+   width: 50%;
+   height: 28vw;
+   background-color: #92AD40;
+   color: #FFFFFF;
+   font-weight: bold;
 }
 
 .container-top-right {
