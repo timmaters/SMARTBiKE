@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+
+.container-left {
+  background-color: #3a3a3a;
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+
+.container-top-right {
+  background-color: blue;
+  width: 50%;
+  height: 50vh;
+  float: left;
+}
+
+.container-bottom-right {
+  background-color: green;
+  width: 50%;
+  height: 50vh;
+  float: left;
+}
