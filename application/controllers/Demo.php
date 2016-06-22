@@ -8,6 +8,6 @@ class Demo extends CI_Controller {
 	//	$this->load->model('Db');
 //		$data['records'] = $this->Db->getData();
 
-		$this->load->view('demo'/*, $data*/);
+		$this->load->view('index'/*, $data*/);
 	}
 }

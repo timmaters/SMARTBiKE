@@ -16,7 +16,7 @@
 <body>
     <?php include "header.php" ?>
     <div class="container-fluid padding" id="aboutbike">
-        <!-- About us -->
+        <!-- About Bike -->
         <div class="row">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="heigth">
@@ -33,7 +33,7 @@
             </div>
         </div>
         <!-- Navigation -->
-        <div class="row margintop">
+        <div class="row margintop" id="functions">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <img class="responsive" id="ImageHeartbeat" src="img/heartbeat.jpg">
             </div>

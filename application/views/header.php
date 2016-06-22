@@ -24,7 +24,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#" rel="home">Home</a></li>
           <li><a href="#" rel="aboutbike">About BiKE</a></li>
-          <li><a href="#">Functions</a></li>
+          <li><a href="#" rel="functions">Functions</a></li>
           <li><a href="#">Demo</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">Contact</a></li>
@@ -48,4 +48,3 @@
         </p>
       </div>
     </div>
-  
