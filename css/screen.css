@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
 }
-
+/* t */
 @font-face {
     font-family:font1;
     src: url(../fonts/Ftr_____.ttf);
@@ -108,7 +108,6 @@
   width: 48%;
   height: 8vw;
   background-color: rgba(122,192,67, 0.5);
-
   float: left;
   margin: 1%;
   cursor: pointer;
