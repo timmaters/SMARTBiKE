@@ -64,6 +64,7 @@ var objStickyMenuClass =
 
 	slideTo: function()
 	{
+		console.log('test');
 		//als het activeItem niks is, scroll naar 0 (bovenaan de pagina)
 		if(this.activeItem == '')
 		{
