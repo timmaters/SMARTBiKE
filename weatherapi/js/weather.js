@@ -8,7 +8,7 @@ $(document).ready(function() {
   }
   else
   {
-    loadWeather("Kolkata, IN", "");
+    loadWeather("Steyl, LM", "");
   }
   function loadWeather(location, woeid)
   {

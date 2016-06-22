@@ -24,7 +24,14 @@
           <h1>SMARTBiKE</h1>
         </div>
         <div class="apps"><div id="weather"></div></div>
-        <div class="apps"></div>
+        <div class="apps">
+          <?php 
+            foreach($records as $rec)
+            {
+              echo $rec->id." ".$rec->username." ".$rec->password;
+            }
+          ?>
+        </div>
         <div class="apps"></div>
         <div class="apps"></div>
         <div class="apps"></div>
