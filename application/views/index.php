@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- main.css loaded in -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <?php include "links.php" ?>
+
 </head>
 
 <body>
-
-    <div class="container-fluid padding">
+    <?php include "header.php" ?>
+    <div class="container-fluid padding" id="aboutbike">
         <!-- About us -->
         <div class="row">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
