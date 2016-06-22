@@ -1,23 +1,4 @@
-<html>
-  <head>
 
-    <title>Header</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="css/header.css"/>
-    <link type="text/css" rel="stylesheet" href="css/slideme.css"/>
-
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery.slideme2.js"></script>
-    <script type="text/javascript" src="js/scroll.js"></script>
-
-    <script type="text/javascript" src="js/default.js"></script>
-
-  </head>
-  <body>
 
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
@@ -41,8 +22,8 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About BiKE</a></li>
+          <li><a href="#" rel="home">Home</a></li>
+          <li><a href="#" rel="aboutbike">About BiKE</a></li>
           <li><a href="#">Functions</a></li>
           <li><a href="#">Demo</a></li>
           <li><a href="#">About us</a></li>
@@ -51,7 +32,7 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" id="home">
       <div id="sliderwrapper">
         <ul class="slideme">
           <li><img width="100%" src="img/bikeimg1.jpg"/></li>
@@ -67,5 +48,4 @@
         </p>
       </div>
     </div>
-  </body>
-</html>
+  
