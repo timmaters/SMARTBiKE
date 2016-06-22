@@ -5,6 +5,9 @@ class Demo extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('demo');
+		$this->load->model('Db');
+		$data['records'] = $this->Db->getData();
+
+		$this->load->view('demo', $data);
 	}
 }
