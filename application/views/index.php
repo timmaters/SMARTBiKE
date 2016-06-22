@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <?php include "header.php" ?>
     <div class="container-fluid padding">
         <!-- About us -->
         <div class="row">

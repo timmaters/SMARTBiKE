@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Frutiger;
+  src: url(../../fonts/Ftr_____.ttf);
+}
+@font-face {
+  font-family: Frutiger;
+  src: url(../../fonts/Ftb_____.ttf);
+	font-weight: bold;
+}
+@font-face {
+  font-family: Frutiger;
+  src: url(../../fonts/Ftl_____.ttf);
+  font-weight: lighter;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+  width: 1200px;
+  height: 100px;
+}
+
+.container-fluid {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+nav {
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+ .nav {
+   margin-top: 23px;
+   font-family: Frutiger;
+   font-size: 20px;
+ }
+ .navbar-default {
+   margin: 0;
+   border: none;
+ }
+
+ .nav li {
+   margin-left: 25px;
+ }
+
+ img {
+   background-size: cover;
+ }
+
+.holder {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  z-index: 999;
+}
+
+.holder h1 {
+  margin-top: 100px;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.holder p {
+  font-size: 40px;
+}
