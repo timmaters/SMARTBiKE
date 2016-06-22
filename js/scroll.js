@@ -2,7 +2,7 @@ $(document).ready(function()
 {
 	//Target ophalen uit objStickyMenuClass (Target is een variabele)
 	//Target is de gehele <header> uit html
-	objStickyMenuClass.target = $('header');
+	objStickyMenuClass.target = $('nav');
 	//Init ophalen uit objStickyMenuClass (Init is een functie, dat is te zien door: (hier komen parameters);)
 	//Hier wordt de class ook opgestart.
 	objStickyMenuClass.init();
@@ -64,6 +64,7 @@ var objStickyMenuClass =
 
 	slideTo: function()
 	{
+		console.log('test');
 		//als het activeItem niks is, scroll naar 0 (bovenaan de pagina)
 		if(this.activeItem == '')
 		{
