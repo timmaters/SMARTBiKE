@@ -12,7 +12,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#" class="navbar-brand">
+        <a href="#" rel="home" class="navbar-brand">
           <img src="img/logo.png" class="img-responsive">
         </a>
         <p href="#" class="hidden-sm hidden-md hidden-lg"></p>
