@@ -1,10 +1,10 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+if (!defined('BASEPATH'))exit('No direct script access allowed');
 
-class Demo extends CI_Controller {
-
-	public function index()
-	{
+class Email extends CI_Controller {
+    
+    public function index()
+    {                
         $config['useragent']    = 'CodeIgniter';
         $config['protocol']     = 'smtp';
         $config['smtp_host']    = 'ssl://smtp.googlemail.com';
@@ -31,7 +31,7 @@ class Demo extends CI_Controller {
         $this->email->message($this->input->post('message'));    
 
         $this->email->send();
-
-		$this->load->view('index'/*, $data*/);
-	}
+        
+        $this->load->view('contact');
+    }
 }
