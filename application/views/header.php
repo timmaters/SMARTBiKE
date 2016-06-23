@@ -1,6 +1,6 @@
 
 
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -13,9 +13,9 @@
           <span class="icon-bar"></span>
         </button>
         <a href="#" class="navbar-brand">
-          <img alt="BiKE" src="img/logo.png" class="img-responsive">
+          <img src="img/logo.png" class="img-responsive">
         </a>
-        <p href="#" class="hidden-sm hidden-md hidden-lg">BiKE</p>
+        <p href="#" class="hidden-sm hidden-md hidden-lg"></p>
 
       </div>
 
@@ -24,7 +24,21 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#" rel="home">Home</a></li>
           <li><a href="#" rel="aboutbike">About BiKE</a></li>
-          <li><a href="#" rel="functions">Functions</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Functions <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" rel="navigation">Navigation</a></li>
+              <li><a href="#" rel="weather">Weather</a></li>
+              <li><a href="#" rel="music">Music</a></li>
+              <li><a href="#" rel="tire">Tire Pressure</a></li>
+              <li><a href="#" rel="light">Light</a></li>
+              <li><a href="#" rel="heart">Heart Rate Monitor</a></li>
+              <li><a href="#" rel="lock">Lock</a></li>
+              <li><a href="#" rel="break">Breakdown Assistance</a></li>
+              <li><a href="#" rel="voice">VOiCE</a></li>
+              <li><a href="#" rel="power">Power</a></li>
+            </ul>
+          </li>
           <li><a href="#">Demo</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">Contact</a></li>

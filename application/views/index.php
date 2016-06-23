@@ -33,14 +33,14 @@
             </div>
         </div>
         <!-- Navigation -->
-        <div class="row margintop" id="functions">
+        <div class="row margintop" id="navigation">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <img class="responsive" id="ImageHeartbeat" src="img/heartbeat.jpg">
             </div>
             <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Navigatie </h2>
+                        <h2 class="HeadingText"> Navigation </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -48,11 +48,11 @@
             </div>
         </div>
         <!-- Weather -->
-        <div class="row margintop">
+        <div class="row margintop" id="weather">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Weer </h2>
+                        <h2 class="HeadingText"> Weather </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -64,14 +64,14 @@
             </div>
         </div>
         <!-- Music -->
-        <div class="row margintop">
+        <div class="row margintop" id="music">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <img class="responsive" id="ImageHeartbeat" src="img/musicbike.jpg">
             </div>
             <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Muziek </h2>
+                        <h2 class="HeadingText"> Music </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -79,11 +79,11 @@
             </div>
         </div>
         <!-- tire presure -->
-        <div class="row margintop">
+        <div class="row margintop" id="tire">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Bandenspaning </h2>
+                        <h2 class="HeadingText"> Tire Pressure </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <!-- light/dark censor -->
-        <div class="row margintop">
+        <div class="row margintop" id="light">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <img class="responsive" id="ImageHeartbeat" src="img/light.jpg">
             </div>
@@ -110,11 +110,11 @@
             </div>
         </div>
         <!-- hearthbeat -->
-        <div class="row margintop">
+        <div class="row margintop" id="heart">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Hartslagmeter </h2>
+                        <h2 class="HeadingText"> Heart Rate Monitor </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -126,14 +126,14 @@
             </div>
         </div>
         <!-- Unlock bike -->
-        <div class="row margintop">
+        <div class="row margintop" id="lock">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <img class="responsive" id="ImageHeartbeat" src="img/musicbike.jpg">
             </div>
             <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Slot </h2>
+                        <h2 class="HeadingText"> Lock </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -141,11 +141,11 @@
             </div>
         </div>
         <!-- Breakdown -->
-        <div class="row margintop">
+        <div class="row margintop" id="break">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Pech hulp </h2>
+                        <h2 class="HeadingText"> Breakdown Assistance </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
@@ -157,7 +157,7 @@
             </div>
         </div>
         <!-- VOiCE -->
-        <div class="row margintop">
+        <div class="row margintop" id="voice">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <img class="responsive" id="ImageHeartbeat" src="img/musicbike.jpg">
             </div>
@@ -172,11 +172,11 @@
             </div>
         </div>
         <!-- Power -->
-        <div class="row margintop">
+        <div class="row margintop" id="power">
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="heigth">
                     <div class="verticalcenter">
-                        <h2 class="HeadingText"> Stroom </h2>
+                        <h2 class="HeadingText"> Power </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
                     </div>
