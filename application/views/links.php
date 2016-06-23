@@ -2,6 +2,7 @@
 integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="css/header.css"/>
 <link type="text/css" rel="stylesheet" href="css/slideme.css"/>
+<link rel="stylesheet" type="text/css" href="css/contact.css">
 
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
