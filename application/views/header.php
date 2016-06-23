@@ -25,7 +25,7 @@
           <li><a href="#" rel="home">Home</a></li>
           <li><a href="#" rel="aboutbike">About BiKE</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Functions <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="nolink">Functions <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#" rel="navigation">Navigation</a></li>
               <li><a href="#" rel="weather">Weather</a></li>
@@ -39,9 +39,9 @@
               <li><a href="#" rel="power">Power</a></li>
             </ul>
           </li>
-          <li><a href="#">Demo</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" rel="demo">Demo</a></li>
+          <li><a href="#" rel="aboutus">About us</a></li>
+          <li><a href="#" rel="contact">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

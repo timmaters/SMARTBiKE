@@ -44,8 +44,13 @@ var objStickyMenuClass =
 				e.preventDefault();
 
 				//de link waar je op klikt, daar wordt de rel aan toegevoegd die benoemd is in de html <a href rel="hoi"> <div id="hoi">
-				objStickyMenuClass.activeItem = $(this).attr('rel');
-				objStickyMenuClass.slideTo();
+				var rel = $(this).attr('rel');
+
+				if(rel != 'nolink')
+				{
+					objStickyMenuClass.activeItem = $(this).attr('rel');
+					objStickyMenuClass.slideTo();
+				}
 			});
 		});
 
@@ -64,7 +69,6 @@ var objStickyMenuClass =
 
 	slideTo: function()
 	{
-		console.log('test');
 		//als het activeItem niks is, scroll naar 0 (bovenaan de pagina)
 		if(this.activeItem == '')
 		{
