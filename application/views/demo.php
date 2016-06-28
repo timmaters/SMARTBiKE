@@ -27,11 +27,18 @@
         </div>
         <div class="apps"><div id="weather"></div></div>
         <div class="apps">
+
           <?php
-            //foreach($records as $rec)
-            //{
-            //  echo $rec->id." ".$rec->username." ".$rec->password;
-            //}
+            foreach($songs as $song)
+            {
+            ?>
+            <p>Song: <?php echo $song->song_title; ?></p>
+              <audio controls>
+                <source src="<?php echo $song->song_src; ?>" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            <?php
+            }
           ?>
         </div>
         <div class="apps"></div>
