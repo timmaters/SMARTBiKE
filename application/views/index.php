@@ -198,7 +198,7 @@
                         <h2 class="HeadingText"> Demo </h2>
                         <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
                         <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">Go To Demo</button>
+                        <a href="index.php/demo" type="button" class="btn btn-secondary btn-lg btn-block">Go To Demo</a>
                     </div>
                 </div>
             </div>

@@ -17,3 +17,6 @@ open gitbash/cmd
 > git commit -m "commit details"
 > git push
 DONE
+
+#c8c8c8
+#0f0f0f
