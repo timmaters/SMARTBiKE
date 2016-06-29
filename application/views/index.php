@@ -71,22 +71,20 @@
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> VOiCE </h2>
                         <p class="Text">
-                          <strong>We all have a place where we need to be, but the world is too big to know every
-                          street. So that is why we need navigation. BiKE has it! And it can give you directions without the
-                          need of your phone! (Only for the Bluetooth stuff ;) ) </strong>
+                          <strong>Just think of it as your personal BiKE assistant. VOiCE, the (woman)CPU that will assure you
+                          to have the most outrageous cycle trip of your live. Day after day.</strong>
                         </p>
                         <p class="Text">
-                          Before you go to the place you want to go you can set the route on your smartphone. After it is set
-                          the display on your BiKE automaticly will show the directions you need to go. But just with arrows and meters.
-                          It is important that your smartphone stays in your pocket while cycling. That is because it is alot safer.
-                          You can always watch the detailed info about the route during your break on your smartphone.</br></br>
-                          VOiCE will also keep you updated when and where you need to take a turn (or turn around).
+                          VOiCE will tell you about almost anything that happens with your BiKE, what happens with you on your BiKE
+                          and even when you need to take a drink, Because dehydration is a serious problem these days.
+                          We went to a special selection of woman voices to select to best, most pleasant voice for you. She doesn't
+                          even sound like a computer!
                         </p>
                       </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Navigation -->
         <div class="row margintop" id="navigation">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
@@ -256,16 +254,19 @@
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> Breakdown Assistance </h2>
                         <p class="Text">
-                          <strong>We all have a place where we need to be, but the world is too big to know every
-                          street. So that is why we need navigation. BiKE has it! And it can give you directions without the
-                          need of your phone! (Only for the Bluetooth stuff ;) ) </strong>
+                          <strong>It is always hateful when something happens with your BiKE and you can't
+                          continue your trip with it. In co-operation with many cycle repairers near you, There will always be
+                          a pleasure way for you to get it fixed.
+                          </strong>
                         </p>
                         <p class="Text">
-                          Before you go to the place you want to go you can set the route on your smartphone. After it is set
-                          the display on your BiKE automaticly will show the directions you need to go. But just with arrows and meters.
-                          It is important that your smartphone stays in your pocket while cycling. That is because it is alot safer.
-                          You can always watch the detailed info about the route during your break on your smartphone.</br></br>
-                          VOiCE will also keep you updated when and where you need to take a turn (or turn around).
+                          When your BiKE breaks down, just open the app and go to breakdown assistance. The app then shows
+                          cycle repairers near you who can fix your bike! You can call them to pick you up, or if they're close
+                          you can get there yourself. We are waiting for you with some fresh soda. (Or hot coco in the winter).
+                        </br>
+                        </br>
+                        But we assure you that your BiKE will get fixed, if that isn't possible the same day. We will
+                        find a proper way for you to get back home.
                         </p>
                       </div>
                 </div>
@@ -286,16 +287,20 @@
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> Demo </h2>
                         <p class="Text">
-                          <strong>We all have a place where we need to be, but the world is too big to know every
-                          street. So that is why we need navigation. BiKE has it! And it can give you directions without the
-                          need of your phone! (Only for the Bluetooth stuff ;) ) </strong>
+                          <strong>To give you a taste of our magic, we made a demo. With this demo you can get an
+                          idea of what BiKE can do. We are still working on it though, but we will have it up
+                          and running in no time!</strong>
                         </p>
                         <p class="Text">
-                          Before you go to the place you want to go you can set the route on your smartphone. After it is set
-                          the display on your BiKE automaticly will show the directions you need to go. But just with arrows and meters.
-                          It is important that your smartphone stays in your pocket while cycling. That is because it is alot safer.
-                          You can always watch the detailed info about the route during your break on your smartphone.</br></br>
-                          VOiCE will also keep you updated when and where you need to take a turn (or turn around).
+                          The current version is 0.7.9</br>
+                          Things you can do!:</br>
+                          -</br>
+                          -</br>
+                          -</br>
+                          -</br>
+                          -</br>
+                          -</br></br>
+                          We will give a heads up when anything changes.
                         </p>
                         <a href="index.php/demo" type="button" class="btn btn-secondary btn-lg btn-block">Go To Demo</a>
                     </div>
@@ -309,16 +314,19 @@
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> About Us </h2>
                         <p class="Text">
-                          <strong>We all have a place where we need to be, but the world is too big to know every
-                          street. So that is why we need navigation. BiKE has it! And it can give you directions without the
-                          need of your phone! (Only for the Bluetooth stuff ;) ) </strong>
+                          <strong>After all this talking about BiKE, the most important thing on this website. Lets know talk
+                          about us, the guys who invented and created it. (We still need someone who can build it, HINT.)</strong>
                         </p>
                         <p class="Text">
-                          Before you go to the place you want to go you can set the route on your smartphone. After it is set
-                          the display on your BiKE automaticly will show the directions you need to go. But just with arrows and meters.
-                          It is important that your smartphone stays in your pocket while cycling. That is because it is alot safer.
-                          You can always watch the detailed info about the route during your break on your smartphone.</br></br>
-                          VOiCE will also keep you updated when and where you need to take a turn (or turn around).
+                          We are students at SintLucas Eindhoven and our study is called: MediaDevelopment. This website serves
+                          as a conceptual project that is siliconvalley worthy. At least, that was the exercise. So we decided to make
+                          BiKE. We are located in Holland and bicycles are our thing, next to windmills, clogs and green plants.
+                          But there aren't many bicycles with the technology of today. There are, but we wanted more, we wanted
+                          everything in a bicycle that you want, as user. That created BiKE.</br></br>
+                          <strong>Who are we?</strong></br></br>
+                          <strong>Tim Maters:</strong> Creator BiKE, Back-end Developer</br>
+                          <strong>Kevin van Delft:</strong> Creator BiKE, Front-end Developer</br>
+                          <strong>Randy Klasen:</strong> Creator BiKE, Front-end Developer, Text editor</br>
                         </p>
                       </div>
                 </div>
