@@ -113,6 +113,25 @@
   cursor: pointer;
 }
 
+#overlay {
+  width: 48%;
+  height: 8vw;
+  z-index: 999;
+  position: absolute;
+}
+
+#mapfullscreen {
+  margin-left: 1%;
+}
+
+#closefullscreen {
+ cursor: pointer;
+}
+
+#heart {
+  height: 16.5vh;
+}
+
 .button {
   width: 60%;
   height: 2.5vw;
@@ -133,12 +152,11 @@
 .container-top-right {
   background-color: blue;
   width: 50%;
-  height: 50vh;
+  height: 49vh;
   float: left;
 }
 
 .container-bottom-right {
-  background-color: green;
   width: 50%;
   height: 50vh;
   float: left;
