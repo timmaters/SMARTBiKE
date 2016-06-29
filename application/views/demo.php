@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <title>Naamloos document</title>
-  <link href="http://localhost/smartbikes/SMARTBiKE/css/screen.css" rel="stylesheet" />
+  <link href="http://localhost/SMARTBiKE/css/screen.css" rel="stylesheet" />
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="http://localhost/smartbikes/SMARTBiKE/weatherapi/css/standardize.css">
-  <link rel="stylesheet" href="http://localhost/smartbikes/SMARTBiKE/weatherapi/css/index.css">
-  <script type ="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/hamburger-menu.js"></script>
+  <link rel="stylesheet" href="http://localhost/SMARTBiKE/weatherapi/css/standardize.css">
+  <link rel="stylesheet" href="http://localhost/SMARTBiKE/weatherapi/css/index.css">
+  <script type ="text/javascript" src="http://localhost/SMARTBiKE/js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/hamburger-menu.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
 
-  <base href="http://localhost/smartbikes/SMARTBiKE/" />
+  <base href="http://localhost/SMARTBiKE/" />
 </head>
 
 <body>
@@ -32,11 +32,13 @@
             foreach($songs as $song)
             {
             ?>
+            <div class="regel">
             <p>Song: <?php echo $song->song_title; ?></p>
               <audio controls>
-                <source src="<?php echo $song->song_src; ?>" type="audio/mpeg">
+                <source class="song" src="<?php echo $song->song_src; ?>" type="audio/mpeg">
                 Your browser does not support the audio element.
               </audio>
+            </div>
             <?php
             }
           ?>
