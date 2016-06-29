@@ -27,16 +27,14 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="nolink">Functions <span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li><a href="#" rel="voice">VOiCE</a></li>
               <li><a href="#" rel="navigation">Navigation</a></li>
               <li><a href="#" rel="weather">Weather</a></li>
               <li><a href="#" rel="music">Music</a></li>
               <li><a href="#" rel="tire">Tire Pressure</a></li>
-              <li><a href="#" rel="light">Light</a></li>
+              <li><a href="#" rel="light">TITEL HIERRRR</a></li>
               <li><a href="#" rel="heart">Heart Rate Monitor</a></li>
-              <li><a href="#" rel="lock">Lock</a></li>
               <li><a href="#" rel="break">Breakdown Assistance</a></li>
-              <li><a href="#" rel="voice">VOiCE</a></li>
-              <li><a href="#" rel="power">Power</a></li>
             </ul>
           </li>
           <li><a href="#" rel="demo">Demo</a></li>
