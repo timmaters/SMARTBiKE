@@ -22,12 +22,22 @@
                 <div class="heigth">
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> About BiKE </h2>
-                        <p class="Text">
-                          <strong>BiKE, the bicycle you dream about. </br>
-                            With the technology of today, almost anything is possible. So with a country
-                            where almost everyone rides a bicycle (The Netherlands) we were thinking to take
-                            all the good stuff from technology and put it into a bicycle.</strong>
-                          </p>
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive"/>
+                            </div>
+                            <div class="col-md-8">
+                                <p class="Text">
+                                  <strong>BiKE, the bicycle you dream about. </br>
+                                    With the technology of today, almost anything is possible. So with a country
+                                    where almost everyone rides a bicycle (The Netherlands) we were thinking to take
+                                    all the good stuff from technology and put it into a bicycle.</strong>
+                                  </p>
+                            </div>
+
+                        </div>
+
                         <p class="Text">
                           BiKE is a bicycle with many, many features like:</br>
                           - Navigation</br>
