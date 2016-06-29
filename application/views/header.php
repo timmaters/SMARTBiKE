@@ -49,10 +49,10 @@
     <div class="container-fluid" id="home">
       <div id="sliderwrapper">
         <ul class="slideme">
-          <li><img width="100%" src="img/bikeimg1.jpg"/></li>
+          <li><img width="100%" src="img/bikeimg4.jpg"/></li>
           <li><img width="100%" src="img/bikeimg2.jpg"/></li>
           <li><img width="100%" src="img/bikeimg3.jpg"/></li>
-          <li><img width="100%" src="img/bikeimg4.jpg"/></li>
+          <li><img width="100%" src="img/bikeimg1.jpg"/></li>
         </ul>
       </div>
       <div class="col-md-12 holder">

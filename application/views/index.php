@@ -22,8 +22,28 @@
                 <div class="heigth">
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> About BiKE </h2>
-                        <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
-                        <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
+                        <p class="Text">
+                          <strong>BiKE, the bicycle you dream about. </br>
+                            With the technology of today, almost anything is possible. So with a country
+                            where almost everyone rides a bicycle (The Netherlands) we were thinking to take
+                            all the good stuff from technology and put it into a bicycle.</strong>
+                          </p>
+                        <p class="Text">
+                          BiKE is a bicycle with many, many features like:</br>
+                          - Navigation</br>
+                          - Weather Forecast</br>
+                          - Music Player</br>
+                          - Tire Pressure Gauge</br>
+                          - Automatic Light</br>
+                          - Heartrate Monitor</br>
+                          - Automatic (Un)lock</br>
+                          - Breakdown Assistance</br></br>
+                          The little display on your handlebar is a low-powered display that is self-configurable.
+                          It can show up to 4 different features in short info messages. The detailed info can be found on your
+                          smartphone. Which is connected via Bluetooth with BiKE. And to make everything better, we made VOiCE.
+                          So that the user experience is as best as it could be.</br>
+                          Now do not worry, we will explain all the features down below.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -41,8 +61,18 @@
                 <div class="heigth">
                     <div class="verticalcenter">
                         <h2 class="HeadingText"> Navigation </h2>
-                        <p class="Text"> Lorem ipsum dolor sit amet, nec id nostro principes, id quas viris altera vim. Est prima legimus albucius eu, quo facete latine ad. Omnes omnium feugait at vim. Ut viris quando eam. Ea sed feugait platonem suavitate, latine oblique disputationi ad eam. Ut debet dolores mei, ut qui viris dicam. Id interesset quaerendum his, has perfecto sententiae sadipscing ut, sed ea malis ceteros. Ut atqui voluptatum mei, impedit meliore te has. Qui ea vide expetenda, summo admodum probatus usu an. Quo ut scripta prodesset, dico invenire vel ex. Putent persius debitis at pri, in ignota aeterno abhorreant qui. Te ullum soluta tractatos nam. Et agam posidonium ius, ut numquam legimus omittantur sit. </p>
-                        <p class="Text"> Nostro qualisque inciderint usu cu, mei te albucius accusata disputando. Vel ea meliore recusabo, te nulla option aperiam vim, qui an modus consul menandri. Pri omnium audire tincidunt ut, ne lorem dicta zril pro, minim blandit sed in. Paulo audire cu nec, rebum iudico id nam </p>
+                        <p class="Text">
+                          <strong>We all have a place where we need to be, but the world is too big to know every
+                          street. So that is why we need navigation. BiKE has it! And it can give you directions without the
+                          need of your phone! (Only for the Bluetooth stuff ;) ) </strong>
+                        </p>
+                        <p class="Text">
+                          Before you go to the place you want to go you can set the route on your smartphone. After it is set
+                          the display on your BiKE automaticly will show the directions you need to go. But just with arrows and meters.
+                          It is important that your smartphone stays in your pocket while cycling. That is because it is alot safer.
+                          You can always watch the detailed info about the route during your break on your smartphone.</br></br>
+                          VOiCE will also keep you updated when and where you need to take a turn (or turn around).
+                        </p>
                     </div>
                 </div>
             </div>
@@ -60,13 +90,13 @@
             </div>
 
             <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-                <img class="responsive" id="ImageHeartbeat" src="img/weather.jpg">
+                <img class="responsive" id="ImageHeartbeat" src="img/weather.jpg" width="100%">
             </div>
         </div>
         <!-- Music -->
         <div class="row margintop" id="music">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                <img class="responsive" id="ImageHeartbeat" src="img/musicbike.jpg">
+                <img id="ImageHeartbeat" src="img/musicbike.jpg">
             </div>
             <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                 <div class="heigth">
