@@ -1,6 +1,5 @@
 <?php
-
-class Db extends CI_Model
+class modelMusic extends CI_Model
 {
   public function getData()
   {
