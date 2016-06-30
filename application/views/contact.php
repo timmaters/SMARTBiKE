@@ -1,7 +1,7 @@
 <div class="container-fluid" id="contact">
     <div class="row">
         <div class="col-lg-7 padding">
-            <img class="responsive" id="ImageHeartbeat" src="img/weather.jpg">
+            <img class="responsive" id="ImageHeartbeat" src="img/contact.jpg">
         </div>
         <div class="col-lg-3 col-lg-offset-1">
             <form method="POST" id="centerForm" action="<?php echo $_SERVER['PHP_SELF']; ?>">

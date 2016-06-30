@@ -32,7 +32,7 @@
               <li><a href="#" rel="weather">Weather</a></li>
               <li><a href="#" rel="music">Music</a></li>
               <li><a href="#" rel="tire">Tire Pressure</a></li>
-              <li><a href="#" rel="light">TITEL HIERRRR</a></li>
+              <li><a href="#" rel="light">Light/Lock</a></li>
               <li><a href="#" rel="heart">Heart Rate Monitor</a></li>
               <li><a href="#" rel="break">Breakdown Assistance</a></li>
             </ul>
