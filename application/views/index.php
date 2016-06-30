@@ -15,6 +15,7 @@
 
 <body>
     <?php include "header.php" ?>
+       <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive position-img" />
         <div class="container-fluid padding" id="aboutbike">
             <!-- About Bike -->
             <div class="row">
@@ -22,10 +23,10 @@
                     <div class="heigth">
                         <div class="verticalcenter">
                             <h2 class="HeadingText"> About BiKE </h2>
-                            <div class="row">
+                            <div class="row img-man">
 
                                 <div class="col-md-4">
-                                    <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive" />
+<!--                                    <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive position-img" />-->
                                 </div>
                                 <div class="col-md-8">
                                     <p class="Text">
@@ -62,7 +63,7 @@
             <!-- VOiCE -->
             <div class="row margintop" id="voice">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/musicbike.jpg">
+                    <img class="responsive" id="ImageHeartbeat" src="img/voice.jpg">
                 </div>
                 <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                     <div class="heigth">
@@ -80,10 +81,36 @@
                 </div>
             </div>
 
+            <!-- heartbeat -->
+            <div class="row margintop" id="heart">
+                <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="heigth">
+                        <div class="verticalcenter">
+                            <h2 class="HeadingText"> Heart Rate Monitor </h2>
+                            <p class="Text">
+                                <strong>The heart is a very special organ in our body. In fact: it is the most special organ in our body, without it
+                          we won't be able to live. BiKE always will show you your heartrate so that you can see when it's time
+                          to take a break.</strong>
+                            </p>
+                            <p class="Text">
+                                BiKE measures your heartrate by means of a heartrate sensor in your left handle. It transfers the information to your phone, where you can watch your heartrate from the beginning of your trip, all the way to the end. The BiKE display on the other hand, can show you your current heartrate at the given moment.
+                                </br>
+                                </br>
+                                Yes, VOiCE even will tell you when you get just a little to excited.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                    <img class="responsive" id="ImageHeartbeat" src="img/heartrate.jpg">
+                </div>
+            </div>
+
             <!-- Navigation -->
             <div class="row margintop" id="navigation">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/heartbeat.jpg">
+                    <img class="responsive" id="ImageHeartbeat" src="img/navigation.jpg">
                 </div>
                 <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                     <div class="heigth">
@@ -131,7 +158,7 @@
             <!-- Music -->
             <div class="row margintop" id="music">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                    <img id="ImageHeartbeat" src="img/musicbike.jpg">
+                    <img id="ImageHeartbeat" src="img/music.jpg">
                 </div>
                 <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                     <div class="heigth">
@@ -180,7 +207,7 @@
                     <img class="responsive" id="ImageHeartbeat" src="img/tire.jpg">
                 </div>
             </div>
-            <!-- light/dark sensor -->
+            <!-- light/lock -->
             <div class="row margintop" id="light">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                     <img class="responsive" id="ImageHeartbeat" src="img/light.jpg">
@@ -188,7 +215,7 @@
                 <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                     <div class="heigth">
                         <div class="verticalcenter">
-                            <h2 class="HeadingText"> Titel HIERRRR </h2>
+                            <h2 class="HeadingText"> Light/Lock </h2>
                             <p class="Text">
                                 <strong>Don't you hate it when you're ready to go home from your local bar and arrive at your bike,
                           you come to the sudden realisation that your light is still on. Or even worse, you didn't lock it. (or both? Shame on you then.)
@@ -203,31 +230,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- heartbeat -->
-            <div class="row margintop" id="heart">
-                <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
-                    <div class="heigth">
-                        <div class="verticalcenter">
-                            <h2 class="HeadingText"> Heart Rate Monitor </h2>
-                            <p class="Text">
-                                <strong>The heart is a very special organ in our body. In fact: it is the most special organ in our body, without it
-                          we won't be able to live. BiKE always will show you your heartrate so that you can see when it's time
-                          to take a break.</strong>
-                            </p>
-                            <p class="Text">
-                                BiKE measures your heartrate by means of a heartrate sensor in your left handle. It transfers the information to your phone, where you can watch your heartrate from the beginning of your trip, all the way to the end. The BiKE display on the other hand, can show you your current heartrate at the given moment.
-                                </br>
-                                </br>
-                                Yes, VOiCE even will tell you when you get just a little to excited.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/weather.jpg">
                 </div>
             </div>
 
@@ -254,14 +256,14 @@
                 </div>
 
                 <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/weather.jpg">
+                    <img class="responsive" id="ImageHeartbeat" src="img/breakdown.jpg">
                 </div>
             </div>
 
             <!-- Demo -->
             <div class="row margintop" id="demo">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/musicbike.jpg">
+                    <img class="responsive" id="ImageHeartbeat" src="img/demo.jpg">
                 </div>
                 <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
                     <div class="heigth">
@@ -287,7 +289,7 @@
                                 </br>
                                 We will give a heads up when anything changes.
                             </p>
-                            <a href="index.php/demo" type="button" class="btn btn-secondary btn-lg btn-block">Go To Demo</a>
+                            <a href="index.php/demo" type="button" class="btn btn-secondary btn-lg btn-block" id="button">Go To Demo</a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +318,7 @@
                 </div>
 
                 <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/weather.jpg">
+                    <img class="responsive" id="ImageHeartbeat" src="img/aboutus.jpg">
                 </div>
             </div>
         </div>

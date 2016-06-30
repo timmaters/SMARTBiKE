@@ -28,10 +28,16 @@
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/navigation.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/speed.js"></script>
 
+<<<<<<< HEAD
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/pech-menu.js"></script>
+=======
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+>>>>>>> 024336044f5574788f6b46c9baffbb5f0041aed5
 
 
 
@@ -102,7 +108,7 @@
             <h3 id="beat2"><?php echo $heartbeat->beat2; ?></h3>
             <h3 id="beat3"><?php echo $heartbeat->beat3; ?></h3>
           </div>
-        </div>      
+        </div>
       </div>
 
       <div id="hamburger-menu">
@@ -115,12 +121,12 @@
           <p>Roadside assistance</p>
         </div>
         <div class="button">
-          <p id="light-on">Light on</p>
-          <p id="light-off">light off</p>
+          <p class="text" id="light-on">Light on</p>
+          <p class="text" id="light-off">light off</p>
         </div>
         <div class="button">
-          <p id="Bclose">Close bike</p>
-          <p id="Bopen">Open bike</p>
+          <p class="text" id="Bclose">Close bike</p>
+          <p class="text" id="Bopen">Open bike</p>
         </div>
       </div>
 

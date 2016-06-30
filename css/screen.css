@@ -238,7 +238,7 @@ audio, canvas, video {
     height: 100%;
     width: 100%;
     text-align: center;
-    line-height: 150px;
+    line-height: 50px;
 }
 
 .screen-apps {
@@ -271,4 +271,8 @@ audio, canvas, video {
     font-size: 26px;
     font-family: font2;
     color: white;
+}
+
+.heartbeat {
+/*     margin-top: -130px;   */
 }
