@@ -14,6 +14,8 @@
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/key.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/heartbeat.js"></script>
   <base href="http://localhost/smartbikes/SMARTBiKE/" />
 </head>
 
@@ -75,7 +77,9 @@
           <div class="heartbeat">
             <img id="heart" src="img/heart.jpg" width="100%" >
             <h3>Your heartbeat:</h3>
-            <h3><?php echo $heartbeat->beat; ?></h3>
+            <h3 id="beat"><?php echo $heartbeat->beat; ?></h3>
+            <h3 id="beat2"><?php echo $heartbeat->beat2; ?></h3>
+            <h3 id="beat3"><?php echo $heartbeat->beat3; ?></h3>
           </div>
         </div>
 
@@ -97,17 +101,28 @@
           <p id="light-on">Light on</p>
           <p id="light-off">light off</p>
         </div>
-        <div class="button"><p>Close bike</p></div>
+        <div class="button">
+          <p id="Bclose">Close bike</p>
+          <p id="Bopen">Open bike</p>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="container-top-right">
+    <div id="screen">
+      <div id="screen-content">
 
+      </div>
+    </div>
   </div>
+
   <div class="container-bottom-right">
+    <img id="open" src="img/key-open.png">
+    <img id="close" src="img/key-closed.png">
     <img id="light" src="img/fiets-licht.png">
     <img id="dark" src="img/fiets-donker.png">
+
   </div>
 </body>
 </html>

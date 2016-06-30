@@ -156,8 +156,40 @@
   float: left;
 }
 
+#screen {
+  position: relative;
+  width: 96%;
+  margin: 2%;
+  height: 96%;
+  background: url(../img/schermpje.png) no-repeat top center;
+  background-size: 100% auto;
+}
+
+#screen-content {
+  position: absolute;
+  left: 5.1%;
+  top: 7.9vw;
+  
+  width: 90.7%;
+  height: 8.4vw;
+  background: #7ac043;
+  background: -webkit-linear-gradient(left top, #ed1e24, #7ac043);
+  background: -o-linear-gradient(bottom right, #ed1e24, #7ac043);
+  background: -moz-linear-gradient(bottom right, #ed1e24, #7ac043);
+  background: linear-gradient(to bottom right, #ed1e24, #7ac043);
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
 .container-bottom-right {
   width: 50%;
   height: 50vh;
   float: left;
+}
+
+#open, #close {
+  width: 100px;
+  position: absolute;
+  top: 50vh;
+  left: 51%;
 }
