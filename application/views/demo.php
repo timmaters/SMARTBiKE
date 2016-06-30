@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <title>Naamloos document</title>
-  <link href="http://localhost/smartbikes/SMARTBiKE/css/screen.css" rel="stylesheet" />
+  <link href="http://localhost/SMARTBiKE/css/screen.css" rel="stylesheet" />
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="http://localhost/smartbikes/SMARTBiKE/weatherapi/css/standardize.css">
-  <link rel="stylesheet" href="http://localhost/smartbikes/SMARTBiKE/weatherapi/css/index.css">
-  <script type ="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/hamburger-menu.js"></script>
+  <link rel="stylesheet" href="http://localhost/SMARTBiKE/weatherapi/css/standardize.css">
+  <link rel="stylesheet" href="http://localhost/SMARTBiKE/weatherapi/css/index.css">
+  <script type ="text/javascript" src="http://localhost/SMARTBiKE/js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/hamburger-menu.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/key.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/heartbeat.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/key.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/heartbeat.js"></script>
 
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
 
-  <base href="http://localhost/smartbikes/SMARTBiKE/" />
+  <base href="http://localhost/SMARTBiKE/" />
 
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/light.js"></script>
 
 
 
@@ -87,11 +87,7 @@
         <div class="apps">
 
           <div class="heartbeat">
-            <img id="heart" src="img/heart.jpg" width="100%" >
-            <h3>Your heartbeat:</h3>
-            <h3 id="beat"><?php echo $heartbeat->beat; ?></h3>
-            <h3 id="beat2"><?php echo $heartbeat->beat2; ?></h3>
-            <h3 id="beat3"><?php echo $heartbeat->beat3; ?></h3>
+            <h3>Your heartbeat: <?php echo $heartbeat->beat; ?></h3>
           </div>
         </div>
 

@@ -9,6 +9,9 @@
                     <div class="verticalcenter">
                         <ul>
                             <li>
+                                <p class="Text"> Do you have anymore quistions you can contact us with the mail. you can fill in the form beneath this and send us a mail by clicking on the submit button </p>
+                            </li>
+                            <li>
                                 <label> Name: </label>
                                 <br>
                                 <input type="text" name="name" />

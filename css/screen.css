@@ -99,7 +99,7 @@
   width: 2.1vw;
   height: 2.1vw;
   float: left;
-  background: url(../img/hamburger-icon.png) no-repeat top center;
+  background: url(../img/hamburger-icon_white.png) no-repeat top center;
   margin: 1%;
   cursor: pointer;
 }
@@ -208,8 +208,9 @@ audio, canvas, video {
 }
 
 .heartbeat {
-    /* background: url('../img/heart.jpg'); */
+    background: url('../img/heart.jpg') no-repeat; 
     background-size: cover;
+    height: 100%;
     width: 100%;
     text-align: center;
     line-height: 150px;
