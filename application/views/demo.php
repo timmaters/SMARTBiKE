@@ -21,11 +21,18 @@
 
   <base href="http://localhost/smartbikes/SMARTBiKE/" />
 
+
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/navigation.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/speed.js"></script>
+
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+
+
 
 
 </head>
@@ -33,6 +40,7 @@
 <body>
 
   <div class="container-left">
+    <a href="index.php" id="link-back"> Back </a>
     <div id="mobile">
       <div id="mobile-content">
         <div id="mobile-header">
@@ -88,7 +96,6 @@
         <div class="apps">
 
           <div class="heartbeat">
-            <img id="heart" src="img/heart.jpg" width="100%" >
             <h3>Your heartbeat:</h3>
             <h3 id="beat"><?php echo $heartbeat->beat; ?></h3>
             <h3 id="beat2"><?php echo $heartbeat->beat2; ?></h3>
