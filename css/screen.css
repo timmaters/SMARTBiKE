@@ -223,3 +223,11 @@ audio, canvas, video {
   float: left;
   margin: 1%;
 }
+
+#link-back {
+    position: absolute;
+    font-size: 26px;
+    font-family: font2;
+    color: white;
+    
+}

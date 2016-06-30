@@ -32,6 +32,7 @@
 <body>
 
   <div class="container-left">
+    <a href="index.php" id="link-back"> Back </a>
     <div id="mobile">
       <div id="mobile-content">
         <div id="mobile-header">
