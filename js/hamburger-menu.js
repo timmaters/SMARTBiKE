@@ -13,6 +13,10 @@ $(document).ready(function()
         $('#hamburger-menu').fadeOut( "slow", function() {
 
         });
+
+        $('#pech-menu').fadeOut( "slow", function() {
+
+        });
     });
 	});
 

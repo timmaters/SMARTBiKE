@@ -31,6 +31,7 @@
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/pech-menu.js"></script>
 
 
 
@@ -101,13 +102,7 @@
             <h3 id="beat2"><?php echo $heartbeat->beat2; ?></h3>
             <h3 id="beat3"><?php echo $heartbeat->beat3; ?></h3>
           </div>
-        </div>
-
-        <!-- app5 -->
-        <div class="apps"></div>
-
-        <!-- app6 -->
-        <div class="apps"></div>
+        </div>      
       </div>
 
       <div id="hamburger-menu">
@@ -116,7 +111,9 @@
           <h1>SMARTBiKE</h1>
         </div>
         <!--<div class="button"><p>Beeld instellen</p></div>-->
-        <!--<div class="button" id="location"><p>Pech hulp</p></div>-->
+        <div class="button" id="pech-button">
+          <p>Roadside assistance</p>
+        </div>
         <div class="button">
           <p id="light-on">Light on</p>
           <p id="light-off">light off</p>
@@ -125,6 +122,32 @@
           <p id="Bclose">Close bike</p>
           <p id="Bopen">Open bike</p>
         </div>
+      </div>
+
+      <div id="pech-menu">
+        <div id="mobile-header">
+          <div class="hamburger-icon-return"></div>
+          <h1>SMARTBiKE</h1>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1245.4180526582059!2d6.169704208357829!3d51.369309619401754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd94b0655a280e8b9!2sANWB+Winkel!5e0!3m2!1snl!2snl!4v1467278318327"
+          width="100%"
+          height="50%"
+          frameborder="0"
+          style="border:0">
+        </iframe>
+        <h3>ANWB Store - 5 minutes by bike</h3>
+        <p style="border-bottom: 2px dotted;">Tel: 06 99 88 55 66</p>
+        <h3>Piet - 9 minutes by bike</h3>
+        <p style="border-bottom: 2px dotted;">Tel: 06 94 34 44 33</p>
+        <h3>Berden - 12 minutes by bike</h3>
+        <p style="border-bottom: 2px dotted;">Tel: 077 - 366 66 99</p>
+        <h3>Joosten - 13 minutes by bike</h3>
+        <p style="border-bottom: 2px dotted;">Tel: 06 94 12 55 26</p>
+        <h3>ANWB Store Hertenstraat - 18 minutes by bike</h3>
+        <p style="border-bottom: 2px dotted;">Tel: 06 99 88 55 66</p>
+        <h3>Jaap - 25 minutes by bike</h3>
+        <p style="border-bottom: 2px dotted;">Tel: 077 - 698 66 54</p>
       </div>
     </div>
   </div>

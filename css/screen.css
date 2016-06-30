@@ -104,6 +104,31 @@
   cursor: pointer;
 }
 
+#pech-menu {
+  position: absolute;
+  left: 50%;
+  top: 8vw;
+  margin-left: -25%;
+  width: 50%;
+  height: 28vw;
+  background: #7ac043; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #7ac043, #ed1e24); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #7ac043, #ed1e24); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #7ac043, #ed1e24); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #7ac043, #ed1e24); /* Standard syntax */
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#pech-menu h1 {
+  float: left;
+  margin-top: 5px;
+  margin-left: 17.5%;
+  font-size: 1.9vw;
+  font-family: font2;
+  color: white;
+}
+
 .apps {
   width: 48%;
   height: 8vw;

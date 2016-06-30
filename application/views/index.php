@@ -275,12 +275,15 @@
                             <p class="Text">
                                 The current version is 0.7.9</br>
                                 Things you can do!:</br>
-                                -</br>
-                                -</br>
-                                -</br>
-                                -</br>
-                                -</br>
-                                -</br>
+                                - Weather app</br>
+                                - Music player</br>
+                                - Maps</br>
+                                - Navigation</br>
+                                - Speedometer</br>
+                                - Heart Rate Monitor</br>
+                                - Roadside assistance</br>
+                                - Light on/off through an app</br>
+                                - Bike close/open through an app</br>
                                 </br>
                                 We will give a heads up when anything changes.
                             </p>
