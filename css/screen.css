@@ -39,11 +39,11 @@
    margin-left: -25%;
    width: 50%;
    height: 28vw;
-   background: #7ac043; /* For browsers that do not support gradients */
-   background: -webkit-linear-gradient(left top, #ed1e24, #7ac043); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(bottom right, #ed1e24,  #7ac043); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(bottom right, #ed1e24, #7ac043); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(to bottom right, #ed1e24, #7ac043); /* Standard syntax */
+   background: #cc4a28; /* For browsers that do not support gradients */
+   /*background: -webkit-linear-gradient(left top, #ed1e24, #7ac043); /* For Safari 5.1 to 6.0 */
+   /*background: -o-linear-gradient(bottom right, #ed1e24,  #7ac043); /* For Opera 11.1 to 12.0 */
+   /*background: -moz-linear-gradient(bottom right, #ed1e24, #7ac043); /* For Firefox 3.6 to 15 */
+   /*background: linear-gradient(to bottom right, #ed1e24, #7ac043); /* Standard syntax */
    color: #FFFFFF;
    font-weight: bold;
 }
@@ -53,8 +53,8 @@
   margin-top: 5px;
   margin-left: 17.5%;
   font-size: 1.9vw;
-  font-family: font1;
-  color: black;
+  font-family: font2;
+  color: white;
 }
 
 #mobile-header {
@@ -82,15 +82,15 @@
   margin-top: 5px;
   margin-left: 17.5%;
   font-size: 1.9vw;
-  font-family: font1;
-  color: black;
+  font-family: font2;
+  color: white;
 }
 
 .hamburger-icon {
   width: 2.1vw;
   height: 2.1vw;
   float: left;
-  background: url(../img/hamburger-icon.png) no-repeat top center;
+  background: url(../img/hamburger-icon_white.png) no-repeat top center;
   margin: 1%;
   cursor: pointer;
 }
@@ -107,7 +107,7 @@
 .apps {
   width: 48%;
   height: 8vw;
-  background-color: rgba(122,192,67, 0.5);
+/*  background-color: rgba(122,192,67, 0.5);*/
   float: left;
   margin: 1%;
   cursor: pointer;
@@ -169,7 +169,6 @@
   position: absolute;
   left: 5.1%;
   top: 7.9vw;
-  
   width: 90.7%;
   height: 8.4vw;
   background: #7ac043;
@@ -192,4 +191,34 @@
   position: absolute;
   top: 50vh;
   left: 51%;
+}
+
+.song {
+    width: 100%;
+}
+
+.regel {
+    width: 100%;
+}
+
+audio, canvas, video {
+    display: inline-block;
+    width: 100%;
+/*    height: 20px;*/
+}
+
+.heartbeat {
+    /* background: url('../img/heart.jpg'); */
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+}
+
+.screen-apps {
+  width: 23%;
+  height:  8.4vw;
+  background-color: rgba(122,192,67, 0.5);
+  float: left;
+  margin: 1%;
 }

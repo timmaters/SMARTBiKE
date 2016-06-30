@@ -16,7 +16,17 @@
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/key.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/heartbeat.js"></script>
+
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
+
   <base href="http://localhost/smartbikes/SMARTBiKE/" />
+
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+
+
+
 </head>
 
 <body>
@@ -49,11 +59,13 @@
             foreach($songs as $song)
             {
             ?>
+            <div class="regel">
             <p>Song: <?php echo $song->song_title; ?></p>
               <audio controls>
-                <source src="<?php echo $song->song_src; ?>" type="audio/mpeg">
+                <source class="song" src="<?php echo $song->song_src; ?>" type="audio/mpeg">
                 Your browser does not support the audio element.
               </audio>
+            </div>
             <?php
             }
           ?>
@@ -112,7 +124,10 @@
   <div class="container-top-right">
     <div id="screen">
       <div id="screen-content">
-
+        <div class="screen-apps"></div>
+        <div class="screen-apps"></div>
+        <div class="screen-apps"></div>
+        <div class="screen-apps"></div>
       </div>
     </div>
   </div>
