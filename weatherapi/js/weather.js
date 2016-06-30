@@ -23,6 +23,7 @@ $(document).ready(function() {
         html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
 
         $("#weather").html(html);
+        $("#weather-screen").html('<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>');
       },
       error: function(error) {
         $("#weather").html('<p>'+error+'</p>');

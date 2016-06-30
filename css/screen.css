@@ -217,8 +217,24 @@ audio, canvas, video {
 
 .screen-apps {
   width: 23%;
-  height:  8.4vw;
+  height:  7.5vw;
   background-color: rgba(122,192,67, 0.5);
   float: left;
   margin: 1%;
+}
+
+#weather-screen {
+  font-size: 3vw;
+}
+
+#weather-screen i {
+  font-size: 4.5vw;
+}
+
+.song-playing {
+  font-size: 1.5vw;
+}
+
+.screen-apps h3 {
+  font-size: 1.4vw;
 }

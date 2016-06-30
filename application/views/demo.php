@@ -24,7 +24,8 @@
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
-
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/navigation.js"></script>
+  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/speed.js"></script>
 
 
 </head>
@@ -124,10 +125,36 @@
   <div class="container-top-right">
     <div id="screen">
       <div id="screen-content">
-        <div class="screen-apps"></div>
-        <div class="screen-apps"></div>
-        <div class="screen-apps"></div>
-        <div class="screen-apps"></div>
+        <div class="screen-apps">
+          <div id="weather-screen"></div>
+        </div>
+        <div class="screen-apps">
+          <div class="song-playing">
+            <p>Song is playing:</p>
+            <p> <?php echo $songs[0]->song_title;  ?></p>
+          </div>
+        </div>
+        <div class="screen-apps">
+          <p> Eindbestemming: Von Flotowlaan || 4 KM</p>
+          <h3 id="dir1"><?php echo $navigation_data->dir1; ?></h3>
+          <h3 id="dir2"><?php echo $navigation_data->dir2; ?></h3>
+          <h3 id="dir3"><?php echo $navigation_data->dir3; ?></h3>
+          <h3 id="dir4"><?php echo $navigation_data->dir4; ?></h3>
+          <h3 id="dir5"><?php echo $navigation_data->dir5; ?></h3>
+          <h3 id="dir6"><?php echo $navigation_data->dir6; ?></h3>
+          <h3 id="dir7"><?php echo $navigation_data->dir7; ?></h3>
+          <h3 id="dir8"><?php echo $navigation_data->dir8; ?></h3>
+          <h3 id="dir9"><?php echo $navigation_data->dir9; ?></h3>
+        </div>
+        <div class="screen-apps">
+          <p> Uw snelheid is:</p>
+          <h3 id="spd1"><?php echo $speed->spd1; ?></h3>
+          <h3 id="spd2"><?php echo $speed->spd2; ?></h3>
+          <h3 id="spd3"><?php echo $speed->spd3; ?></h3>
+          <h3 id="spd4"><?php echo $speed->spd4; ?></h3>
+          <h3 id="spd5"><?php echo $speed->spd5; ?></h3>
+          <h3 id="spd6"><?php echo $speed->spd6; ?></h3>
+        </div>
       </div>
     </div>
   </div>
