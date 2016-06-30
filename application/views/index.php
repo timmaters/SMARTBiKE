@@ -81,6 +81,32 @@
                 </div>
             </div>
 
+            <!-- heartbeat -->
+            <div class="row margintop" id="heart">
+                <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="heigth">
+                        <div class="verticalcenter">
+                            <h2 class="HeadingText"> Heart Rate Monitor </h2>
+                            <p class="Text">
+                                <strong>The heart is a very special organ in our body. In fact: it is the most special organ in our body, without it
+                          we won't be able to live. BiKE always will show you your heartrate so that you can see when it's time
+                          to take a break.</strong>
+                            </p>
+                            <p class="Text">
+                                BiKE measures your heartrate by means of a heartrate sensor in your left handle. It transfers the information to your phone, where you can watch your heartrate from the beginning of your trip, all the way to the end. The BiKE display on the other hand, can show you your current heartrate at the given moment.
+                                </br>
+                                </br>
+                                Yes, VOiCE even will tell you when you get just a little to excited.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                    <img class="responsive" id="ImageHeartbeat" src="img/heartrate.jpg">
+                </div>
+            </div>
+
             <!-- Navigation -->
             <div class="row margintop" id="navigation">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
@@ -204,31 +230,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- heartbeat -->
-            <div class="row margintop" id="heart">
-                <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
-                    <div class="heigth">
-                        <div class="verticalcenter">
-                            <h2 class="HeadingText"> Heart Rate Monitor </h2>
-                            <p class="Text">
-                                <strong>The heart is a very special organ in our body. In fact: it is the most special organ in our body, without it
-                          we won't be able to live. BiKE always will show you your heartrate so that you can see when it's time
-                          to take a break.</strong>
-                            </p>
-                            <p class="Text">
-                                BiKE measures your heartrate by means of a heartrate sensor in your left handle. It transfers the information to your phone, where you can watch your heartrate from the beginning of your trip, all the way to the end. The BiKE display on the other hand, can show you your current heartrate at the given moment.
-                                </br>
-                                </br>
-                                Yes, VOiCE even will tell you when you get just a little to excited.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-                    <img class="responsive" id="ImageHeartbeat" src="img/heartrate.jpg">
                 </div>
             </div>
 
