@@ -66,3 +66,27 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.position-img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 150px 0 0 175px;
+}
+
+#button  {
+    margin: 20px 0 0 0;
+    height: 50px;
+    width: 100%;
+    border: 2px solid #CC4A28;
+    border-radius: 5px;
+    background: white;
+    font-family: Frutiger;
+    font-size: 20px;
+    color: black;
+}
+
+#button:hover {
+    background: #CC4A28;
+    color: black;
+}

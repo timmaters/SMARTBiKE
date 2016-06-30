@@ -15,6 +15,7 @@
 
 <body>
     <?php include "header.php" ?>
+       <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive position-img" />
         <div class="container-fluid padding" id="aboutbike">
             <!-- About Bike -->
             <div class="row">
@@ -22,10 +23,10 @@
                     <div class="heigth">
                         <div class="verticalcenter">
                             <h2 class="HeadingText"> About BiKE </h2>
-                            <div class="row">
+                            <div class="row img-man">
 
                                 <div class="col-md-4">
-                                    <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive" />
+<!--                                    <img src="http://im.ziffdavisinternational.com/t/askmen_nl/feature/3/3-tips-hoe-groei-je-een-baard/3-tips-hoe-groei-je-een-baard_x8md.640.jpg" class="img-responsive position-img" />-->
                                 </div>
                                 <div class="col-md-8">
                                     <p class="Text">
@@ -284,7 +285,7 @@
                                 </br>
                                 We will give a heads up when anything changes.
                             </p>
-                            <a href="index.php/demo" type="button" class="btn btn-secondary btn-lg btn-block">Go To Demo</a>
+                            <a href="index.php/demo" type="button" class="btn btn-secondary btn-lg btn-block" id="button">Go To Demo</a>
                         </div>
                     </div>
                 </div>

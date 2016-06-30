@@ -3,34 +3,34 @@
 <head>
 <meta charset="utf-8">
 <title>Naamloos document</title>
-  <link href="http://localhost/smartbikes/SMARTBiKE/css/screen.css" rel="stylesheet" />
+  <link href="http://localhost/SMARTBiKE/css/screen.css" rel="stylesheet" />
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="http://localhost/smartbikes/SMARTBiKE/weatherapi/css/standardize.css">
-  <link rel="stylesheet" href="http://localhost/smartbikes/SMARTBiKE/weatherapi/css/index.css">
-  <script type ="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/hamburger-menu.js"></script>
+  <link rel="stylesheet" href="http://localhost/SMARTBiKE/weatherapi/css/standardize.css">
+  <link rel="stylesheet" href="http://localhost/SMARTBiKE/weatherapi/css/index.css">
+  <script type ="text/javascript" src="http://localhost/SMARTBiKE/js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/hamburger-menu.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/key.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/heartbeat.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/key.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/heartbeat.js"></script>
 
   <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
 
-  <base href="http://localhost/smartbikes/SMARTBiKE/" />
+  <base href="http://localhost/SMARTBiKE/" />
 
 
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/navigation.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/speed.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/navigation.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/speed.js"></script>
 
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/light.js"></script>
 
 
 
@@ -118,12 +118,12 @@
         <!--<div class="button"><p>Beeld instellen</p></div>-->
         <!--<div class="button" id="location"><p>Pech hulp</p></div>-->
         <div class="button">
-          <p id="light-on">Light on</p>
-          <p id="light-off">light off</p>
+          <p class="text" id="light-on">Light on</p>
+          <p class="text" id="light-off">light off</p>
         </div>
         <div class="button">
-          <p id="Bclose">Close bike</p>
-          <p id="Bopen">Open bike</p>
+          <p class="text" id="Bclose">Close bike</p>
+          <p class="text" id="Bopen">Open bike</p>
         </div>
       </div>
     </div>
