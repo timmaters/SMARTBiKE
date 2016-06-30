@@ -11,16 +11,16 @@
   <script type="text/javascript" src="http://localhost/SMARTBiKE/js/hamburger-menu.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
-<<<<<<< HEAD
+
   <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
 
   <base href="http://localhost/SMARTBiKE/" />
-=======
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/weatherapi/js/weather.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/mapfullscreen.js"></script>
-  <script type="text/javascript" src="http://localhost/smartbikes/SMARTBiKE/js/light.js"></script>
-  <base href="http://localhost/smartbikes/SMARTBiKE/" />
->>>>>>> be2cc6be2ed84169397eb1f531c2e1c0c240e59a
+
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/weatherapi/js/weather.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/mapfullscreen.js"></script>
+  <script type="text/javascript" src="http://localhost/SMARTBiKE/js/light.js"></script>
+  <base href="http://localhost/SMARTBiKE/" />
+
 </head>
 
 <body>
@@ -80,10 +80,8 @@
         <!-- app4 -->
         <div class="apps">
 
-          <div class="heartbeat">
-            <img id="heart" src="img/heart.jpg" width="100%" >
-            <h3>Your heartbeat:</h3>
-            <h3><?php echo $heartbeat->beat; ?></h3>
+          <div class="heartbeat apps">
+            <h3> Your heartbeat:<?php echo $heartbeat->beat; ?></h3>
           </div>
         </div>
 

@@ -175,3 +175,11 @@ audio, canvas, video {
     width: 100%;
 /*    height: 20px;*/
 }
+
+.heartbeat {
+    background: url('../img/heart.jpg');
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+}
